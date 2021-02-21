@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steakhouse Wagon</title>
+    <link rel="stylesheet" href="main.css" />
+
+    <!---Start of CSS style for contact form-->
+    <style>
+      body {
+        font-family: "Times New Roman", "Amatic SC", sans-serif;
+        font-size: 30px;
+      }
+      h1 {
+        font-family: "Times New Roman", "Amatic SC", sans-serif;
+        font-size: 30px;
+      }
+    </style>
+    <!---End of CSS style for contact form-->
+  </head>
+
+  <body>
+    <!--start of header---->
+    <header role="banner">
+      <h1 style="text-align: center; color: white">Steakhouse Wagon</h1>
+    <!----start of  Navigation Bar-->
+    <nav role="navigation">
+      <div class="transbox_navbar">
+        <!----this is a unordered list "ul"-->
+        <ul>
+          <!----this is a list "li"-->
+          <!----anchor tag that references the html links-->
+          <li><a href="index.html" title="Home ">Home</a></li>
+          <li><a href="#" title="Menu ">Menu</a></li>
+          <ul>
+            <li>
+              <a
+                href="Appetizers.html"
+                title="Appetizers"
+                style="font-size: 30px"
+                >Appetizers</a
+              >
+            </li>
+            <li>
+              <a href="Entrees.html" title="Entrees" style="font-size: 30px"
+                >Entrees</a
+              >
+            </li>
+            <li>
+              <a href="Dessert.html" title="Desserts" style="font-size: 30px"
+                >Dessert</a
+              >
+            </li>
+            <li>
+              <a href="Drinks.html" title="Drinks" style="font-size: 30px"
+                >Drinks</a
+              >
+            </li>
+          </ul>
+
+          <li class="deactive">
+            <a href="Contact_Us.html" title="Contact Us">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </header>
+    <!------end of navigation bar------------->
+    <!---end of header----->
+
+    <!----Start of Contact us box-->
+    <main role="main">
+      <div class="Contact_container">
+        <h1>Contact Us!</h1>
+        <p>Please fill in this form to send us your feedback!</p>
+
+        
+        <!----ELEMENT #1: <FORM>--->
+        <!-----FORM: represents a document section containing interactive 
+          controls for submitting information.-------------->
+        <!---since I am creating a Contact Us form then it is logical to use the FROM element tag----->
+
+        <!----ATTRIBUTE #1: METHOD--->
+        <!-------METHOD: attribute with value of POST----------->
+        <!-------POST is the HTTP method to submit the form with. 
+          It is used to transfer data from client to server in HTTP protocol------->
+        <!---POST method is used to retieve info that user inputs in the field boxes
+                and transfers it to the DB which is usally done in php script---->
+        <!--in this example, "contactform.php" script will be using POST method to retrieve 
+            user info from the contact form to DB------>
+
+        <!----ATTRIBUTE #2: ACTION--->
+        <!-----ACTION: is the URL that processes the form submission-------->
+        <!--when the user clicks on the "send message" button then it trigger
+            an event in which it will run the "contactform.php" script----->
+        <form class="contact-form" method="POST" action="contactform.php">
+          
+          
+          <!----ELEMENT #2: <INPUT>----->
+          <!-----INPUT: used to create interactive controls for 
+            web-based forms in order to accept data from the user-------->
+          
+          <!----ATTRIBUTE #3: PLACEHOLDER--->
+          <!--PLACEHOLDER: is the text that appears in the form control when it has no value set------>
+          <!---I use the placeholder attribute so users know what type of information to
+              enter in that specific field box---->
+          <input type="text" name="name" placeholder="Full name" required />
+          <input
+            type="text"
+            name="email"
+            placeholder="Your email address"
+            required
+          />
+          <input type="text" name="subject" placeholder="Subject" required />
+          <textarea
+            name="message"
+            style="height: 150px"
+            placeholder="Message"
+            required
+          ></textarea>
+
+          <!----ELEMENT #3: <BUTTON>
+          <!----BUTTON: represents a clickable button, used to submit forms or anywhere in 
+            a document for accessible, standard button functionality-------->
+          <button
+            type="submit"
+            name="submit"
+            style="width: 300px; background-color: #45a049"
+          >
+            SEND MESSAGE
+          </button>
+        </form>
+      </div>
+    </main>
+    <!----End of Contact us box-->
+
+    <!---START OF FOOTER-->
+    <div class="footer" role="contentinfo">
+      <p>
+        All trademarks and registered trademarks are the property of their
+        respective owners.
+      </p>
+      <p>© 2020 Steakhouse Wagon</p>
+    </div>
+    <!---END OF FOOTER-->
+  </body>
+</html>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steakhouse Wagon</title>
+    <link rel="stylesheet" href="main.css" />
+    <style>
+      body,
+      html {
+        height: 100%;
+      }
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Times New Roman","Amatic SC", sans-serif;
+        font-size: 30px;
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    <!--start of header--->
+    <header role="banner">
+      <h1 style="text-align: center; color: white">Steakhouse Wagon</h1>
+    <!----start of  Navigation Bar -->
+    <nav role="navigation">
+      <div class="transbox_navbar">
+    <!----this is a unordered list "ul"-->
+    <ul>
+      <!----this is a list "li"-->
+      <!----anchor tag that references the html links-->
+      <li><a href="index.html"  title="Home ">Home</a></li>
+      <li><a href="#" title="Menu ">Menu</a></li>
+        <ul>
+        <li>
+          <a
+            href="Appetizers.html"
+            title="Appetizers"
+            style="font-size: 30px"
+            >Appetizers</a
+          >
+        </li>
+        <li>
+          <a href="Entrees.html" title="Entrees" style="font-size: 30px"
+            >Entrees</a
+          >
+        </li>
+        <li>
+          <a href="Dessert.html" title="Desserts" style="font-size: 30px"
+            >Dessert</a
+          >
+        </li>
+        <li>
+          <a href="Drinks.html" title="Drinks" style="font-size: 30px"
+            >Drinks</a
+          >
+        </li>
+      </ul>
+    
+          <li class="deactive">
+            <a href="Contact_Us.html" title="Contact Us">Contact Us</a>
+          </li>
+        </ul> 
+      </div>
+    </nav>
+    </header>
+    <!---END OF NAVIGATION-->
+    <!----end of header------->
+
+    <!-- Menu Container: ENTREES CONTENT-->
+    <main role="main">
+      <div class="TheMenu">
+        <div class="menu_transbox">
+        <div
+            class="menu_container"
+            id="menu"
+            style="
+             margin-left: 150px;
+            margin-right: 150px;
+            margin-top: 20px;
+            margin-bottom: 20px;">
+       
+            <h2 style="margin-bottom: 64px; margin-left: 40%;" id="Top">THE MENU</h2>
+            <p>*All Entrees are served with a choice of two sides.</p>
+            <p>Sides: french fries, steamed vegetables, baked potato, salad, soup, pilaf rice, Mac & Cheese</p>
+            
+            <p>
+              On this page you&rsquo;ll find a quick reference to different
+              dishes we offer based on the type of dish you would like to be
+              served.
+            </p>
+          
+            <!----created internal links------>
+            <p><a href="#Steak" title="Steak">Steak</a></p>
+
+            <p><a href="#Seafood" title="Seafood">Seafood</a></p>
+
+            <p><a href="#Chicken" title="Chicken">Chicken</a></p>
+
+          <!-----STEAK dishes w/ description and price------>
+        <section role="region">
+            <div id="Steak" class="menu">
+              <h3 style="color: blue; text-align: left; margin-left: -50px">
+                Steak
+              </h3>
+            <h1>
+                <b>8 oz. Filet Mignon</b>
+                <span class="price" style="margin-left: 90%;">$22.25</span>
+            </h1>
+            <p>
+              Our signature center-cut filet with steak butter. Available 16 oz. Filet Mignon ($27.50) 
+            </p>
+          <hr />
+
+            <h1>
+                 <b>Rib Eye Steak</b>
+                <span class="price" style="margin-left: 90%;">$23.00</span>
+            </h1>
+            <p>
+              Cut fresh and hand-trimmed. 12 ounces of our most juicy and flavorful steak, cut fresh 
+              from the rib loin, and distinguished by its rich marbling that runs through.
+            </p>
+          <hr />
+
+            <h1>
+                <b>Baby Back Ribs (Full Rack)</b>
+                <span class="price" style="margin-left: 90%;">$30.00</span>
+            </h1>
+            <p>
+              Our fall-off-the-bone ribs marinated, seasoned with spices, slow roasted and 
+              finished over an open flame. Smothered in our smoky molasses BBQ sauce.
+              Available Half of a rack ($22.00).
+            </p>
+          <hr />
+
+            <h1>
+                <b> 12 oz. New York Strip</b>
+                <span class="price" style="margin-left: 90%;">$23.00</span>
+            </h1>
+            <p>
+              Thick cut meat is fire-grilled to enhance its distinctive flavor!
+               
+            </p>
+          <hr />
+
+            <h1>
+                <b>18 oz. Fire-Grilled T-Bone</b>
+                <span class="price" style="margin-left: 90%;">$28.00</span>
+            </h1>
+            <p>
+            A combination of the rich marbled flavor of a strip with the tenderness of a filet.
+            </p>
+          <hr />
+
+            </div>
+        </section>
+
+          <!-----SEAFOOD dishes w/ description and price------>
+        <section role="region">
+        <div id="Seafood" class="menu">
+          <h3 style="color: blue; text-align: left; margin-left: -50px">
+            Seafood
+          </h3>
+          <h1>
+            <b>Cajun Shrimp Pasta</b>
+            <span class="price" style="margin-left: 90%;">$18.25</span>
+          </h1>
+          <p>
+            Shrimp, penne in Alfredo sauce, topped with chile spices, Parmesan, tomatoes, green onions. 
+            Served with garlic toast.
+          </p>
+          <hr />
+
+          <h1>
+            <b>Grilled Alaskian Salmon Filet</b>
+            <span class="price" style="margin-left: 90%;">$22.00</span>
+          </h1>
+          <p>
+            Charbroiled salmon with lemon butter & housemade tartar sauce</p>
+          <hr />
+
+          <h1>
+            <b>Shrimp Alfredo</b>
+            <span class="price" style="margin-left: 90%;">$22.25</span>
+          </h1>
+          <p>
+            Creamy, homemade fettuccine alfredo tossed with sautéed shrimp.
+          </p>
+          <hr />
+
+          <h1>
+            <b>Herb-Grilled Salmon</b>
+            <span class="price" style="margin-left: 90%;">$20.50</span>
+          </h1>
+          <p>
+            Filet grilled to perfection and topped with garlic herb butter. 
+            Served with parmesan garlic broccoli.
+          </p>
+          <hr />
+
+          <h1>
+            <b>Steamed Lobster tails</b>
+            <span class="price" style="margin-left: 90%;">$30.00</span>
+          </h1>
+          <p>
+            Two cold water tails perfectly steamed for maximum tenderness. 
+            Served with two freshly made sides.
+          </p>
+        </div>
+        </section>
+
+          <!-----Chicken dishes w/ description and price------>
+     <section role="region">
+        <div id="Chicken" class="menu">
+          <h3 style="color: blue; text-align: left; margin-left: -50px">
+            Chicken
+          </h3>
+          <h1>
+            <b>Cajun Chicken Pasta</b><span class="price" style="margin-left: 60%;">$18.00</span>
+          </h1>
+          <p>
+            Grilled chicken, penne in Alfredo sauce, topped with chile spices, Parmesan, 
+            tomatoes, green onions. Served with garlic toast.
+          </p>
+          <hr />
+
+          <h1>
+            <b>Fire Grilled Chicken Breasts</b>
+            <span class="price" style="margin-left: 90%;">$16.25</span>
+          </h1>
+          <p>
+            Two chicken breasts lightly marinated with fresh garlic, sage, parsley, 
+            thyme and a squeeze of lemon.
+          </p>
+          <hr />
+
+          <h1>
+            <b>Chicken Fajitas</b>
+            <span class="price" style="margin-left: 90%;">$17.25</span>
+          </h1>
+          <p>
+            Served with pico de gallo, sour cream, cheese, salsa, and flour tortillas. 
+            Guac on request (+$1.00).
+          </p>
+        </div>
+        <br />
+        <p><b style="color: blue">Steak Temperatures:</b>
+            <ul>
+              <li style="color: blue">Rare-- Cool, red center</li>
+              <li style="color: blue">Medium Rare-- Warm red center with a hint of pink</li>
+              <li style="color: blue">Medium-- Warm pink center</li>
+              <li style="color: blue">Medium Well-- Some pink in the center</li>
+              <li style="color: blue">Well Done-- No pink, cooked all the way through</li>
+            </ul>
+        </p>
+    </section>
+    </div>
+        <!----back to the top link-------->
+    <p><a href="#Top" title="Back to the top">Back to the top</a></p>
+
+    </div>
+    </div>
+    </main>
+  <!------END OF MENU CONTAINER------------>
+    <!---START OF FOOTER-->
+    <div class="footer" role="contentinfo">
+      <p>
+        All trademarks and registered trademarks are the property of their
+        respective owners.
+      </p>
+      <p>© 2020 Steakhouse Wagon</p>
+    </div>
+    <!---END OF FOOTER-->
+  </body>
+</html>

@@ -1,0 +1,216 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  
+  /*background-size: sets the size of the element's background image. */
+  /*"cover" value scales the image as large as possible without stretching the image. */
+  background-size: cover;
+  
+  /*background-repeat: sets how background images are repeated. A background image 
+  can be repeated along the horizontal and vertical axes */
+  /*"repeat" value means that image is repeated as much as needed to cover the 
+  whole background image painting area.*/
+  background-repeat: repeat;
+ /* background-image: url("/images/steakhouse_bckgrd.jpg");*/
+  background-image: url("/images/steakhouse_bckgrd.jpg");
+  
+  /*background-position: sets the initial position for each background image. */
+  /*"center" values centers the image. */
+  background-position: center;
+}
+
+* {
+  /* box-sizing: sets how the total width and height of an element is calculated.*/
+  /*"border-box" value tells the browser to account for any border and padding in the 
+  values you specify for an element's width and height. */
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/*start of edits for navigation section AND The Menus sections for all html files*/
+div.menu_transbox {
+  margin: 0;
+  background-color: #ffffff;
+  border: 1px solid black;
+  
+  /*opacity: sets the opacity of an element. 
+  Opacity is the degree to which content behind an element is hidden */
+  opacity: 0.6;
+}
+
+.TheMenu {
+  font-family: "Times New Roman", "Amatic SC", sans-serif;
+  color: black;
+  font-size: medium;
+  
+  /*text-align: sets the horizontal alignment of a block 
+  element or table-cell box. */
+  /*"left" value means that the inline contents are aligned to 
+  the left edge of the line box. */
+  text-align: left;
+  
+  /*overflow: sets the desired behavior for an element's 
+  overflow — i.e. when an element's content is too big to fit in its 
+  block formatting context — in both directions. */
+  
+  /*"auto" value means that desktop browsers provide scrollbars if content overflows.*/
+  overflow: auto;
+  
+  position: relative;
+  width: 90%;
+  border: 0.5rem outset black;
+  border-radius: 12px;
+  font: 1.7rem "Times New Roman";
+  /*margin: 0rem;*/
+  margin: 50px auto;
+  padding: 0rem;
+  
+  /*outline-offset: sets the amount of space between an outline and the edge or border of an element.*/
+  outline-offset: 0.25rem;
+}
+div.transbox_navbar,
+header {
+  margin: 0;
+  background-color: black;
+  border: 1px solid black;
+  opacity: 0.95;
+}
+/*end of edits for navigation section AND The Menus*/
+
+/*START OF HOME PAGE EDITING (index.html)*/
+div.Who_we_are_transbox {
+  font-family: "Times New Roman", "Amatic SC", sans-serif;
+  color: black;
+  text-align: left;
+  width: 50%;
+  border: 0.1rem outset black;
+  border-radius: 12px;
+  font: 1.7rem;
+  opacity: 0.9;
+  background-color: white;
+  margin-left: auto;
+  margin-right: 50%;
+  margin-bottom: 10%;
+  padding: 0rem;
+}
+
+div.Who_we_are_transbox h1 {
+  margin: 5%;
+  font-weight: bold;
+  color: black;
+  
+  /*text-indent: sets the length of empty space (indentation) that is put before lines of text in a block. */
+  text-indent: 34%;
+}
+div.Who_we_are_transbox p {
+  margin: 2%;
+  font-weight: normal;
+  color: black;
+  text-indent: 20px;
+}
+/*end OF HOME PAGE EDITING (index.html)*/
+
+/*Start of Hours of Operation editing in index.html */
+div.Hours_of_Operations_transbox {
+  font-family: "Times New Roman", "Amatic SC", sans-serif;
+  color: black;
+  text-align: center;
+  width: 50%;
+  border: 0.1rem outset black;
+  border-radius: 12px;
+  font: 1.7rem;
+  opacity: 0.9;
+  background-color: white;
+  margin-left: 50%;
+  margin-bottom: 2%;
+  padding: 0rem;
+}
+div.Hours_of_Operations_transbox h1 {
+  margin: 5%;
+  font-weight: bold;
+  color: black;
+  text-indent: 5%;
+}
+div.Hours_of_Operations_transbox p {
+  margin: 2%;
+  font-weight: normal;
+  color: black;
+  text-indent: 20px;
+}
+/*End of Hours of Operation editing in index.html */
+
+/*start of Contact_Us.html contact form edit*/
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+  /*resize: sets whether an element is resizable, and if so, in which directions.*/
+  /*"vertical" means that the element displays a mechanism for allowing the user to 
+  resize it in the vertical direction.*/ 
+  resize: vertical;
+  font-family: "Times New Roman", "Amatic SC", sans-serif;
+  font-size: 20px;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  
+  /* cursor: sets the type of mouse cursor, if any, to show when the mouse pointer is over an element.*/
+  /*"pointer" is a pointer that indicates a link. Typically an image of a pointing hand. */
+  cursor: pointer;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.Contact_container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 40px;
+  height: 600px;
+  width: 450px;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 50%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/*end of Contact_Us.html contact form edit*/
+
+/*START OF FOOTER EDITING*/
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: black;
+  padding: 4px 6px;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+div.footer p {
+  font-family: "Times New Roman", "Amatic SC", sans-serif;
+  color: white;
+  font-size: 15px;
+}
+/*END OF FOOTER EDITING*/
