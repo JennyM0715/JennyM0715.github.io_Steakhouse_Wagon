@@ -18,4 +18,4 @@ Created a steakhouse restaurant web application without using JavaScript, librar
 
 # Live output:
     - The link below display the outcome of the source code
-        = https://jennym0715.github.io/JennyM0715.github.io
+        = https://jennym0715.github.io/JennyM0715.github.io_Steakhouse_Wagon/
