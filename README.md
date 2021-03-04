@@ -10,7 +10,7 @@ Created a steakhouse restaurant web application without using JavaScript, librar
     
 # Other Information
     - used Ubuntu terminal
-        ="Windows Subsystem for Linux" must be turn on (under Windows Features)
+        = "Windows Subsystem for Linux" must be turn on (under Windows Features)
 
     -used Git Bash (there is also Git GUI)
         = I used this link below to install Git Bash, Git GUI, and Git CMD on my Windows
@@ -18,4 +18,4 @@ Created a steakhouse restaurant web application without using JavaScript, librar
 
 # Live output
     - The link below display the outcome of the source code
-        = https://jennym0715.github.io/JennyM0715.github.io_Steakhouse_Wagon/
+        = https://jennym0715.github.io/Steakhouse_Wagon/ 
